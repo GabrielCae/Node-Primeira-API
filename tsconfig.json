@@ -6,6 +6,8 @@
     "lib": ["es2024", "ESNext.Array", "ESNext.Collection", "ESNext.Iterator"],
     "module": "nodenext",
     "target": "es2022",
+    "allowImportingTsExtensions": true,
+    "noEmit": true, // não vou converter o código de ts para js
 
     "strict": true,
     "esModuleInterop": true,
