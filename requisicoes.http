@@ -1,1 +1,14 @@
 POST http:localhost:3333/courses
+Content-Type: application/json
+
+{
+    "title": "Curso de Node.js"
+}
+
+###
+
+GET http:localhost:3333/courses?orderBy=title
+
+###
+
+GET http:localhost:3333/courses/1132a77c-678f-4638-9ffb-3e7d7b3b0cf3

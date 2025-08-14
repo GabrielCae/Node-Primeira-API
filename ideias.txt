@@ -1,0 +1,6 @@
+Pros testes automatizados
+- testar order by (get-courses)
+- criar uma factory e testar matrícula (enrollments)
+
+Rotas
+- deletar, editar cursos, usuários, etc
